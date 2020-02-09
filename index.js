@@ -1,6 +1,7 @@
 // Your code here
 
 function createEmployeeRecord(arr){
+<<<<<<< HEAD
   return {firstName:arr[0],
           familyName:arr[1],
           title:arr[2],
@@ -62,4 +63,12 @@ function findEmployeeByFirstName(arr,name){
   for(let ele of arr){
     if(ele.firstName==name)return ele
   }
+=======
+  let firstName=arr[0]
+  let familyName=arr[1]
+  let title=arr[2]
+  let payPerHour=arr[3]
+  let timeInEvents=[]
+  
+>>>>>>> 735369d7abb0dcaa3a10bebe29d92d2dd6ab42df
 }
